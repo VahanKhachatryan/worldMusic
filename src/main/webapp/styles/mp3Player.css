@@ -1,0 +1,117 @@
+* {
+    outline: 0;
+}
+
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    /*100_  viewPort Height*/
+    background-color: #999;
+}
+
+#player {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /*flex-direction: column;*/
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-width: 280px;
+    max-width: 600px;
+    min-height: 100px;
+    background-color: #fff;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    -webkit-box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px grey;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear; /*No esta teniendo efecto??? */
+}
+
+#screen {
+    width: 100%;
+    margin: 20px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #222;
+    font-family: 'Iceland', cursive, 'Share Tech Mono', monospace;
+    font-size: 25px;
+    color: #0f0;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear; /*No esta teniendo efecto??? */
+}
+
+/*.botonera {} */
+
+button {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    color: #666;
+    /* Gris satánico T_T */
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+#list {
+    list-style-type: none;
+    font-family: 'Iceland', cursive, 'Share Tech Mono', monospace;
+    width: 100%;
+    max-height: 1px;
+    background: #222;
+    margin: 10px;
+    overflow-y: scroll;
+    color: green;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+#list.expand {
+    max-height: 140px;
+    width: 100%;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+#list li:hover{
+    color: #bbb;
+    cursor: pointer;
+}
+#list li.selected{
+    background-color: #333;
+    color: #fff;
+}
+#botonLista {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transition: all 800ms linear;
+    transition: all 800ms linear;
+    color: #666;
+}
+#botonLista.expand{
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    -webkit-transition: all 800ms linear;
+    transition: all 800ms linear;
+}

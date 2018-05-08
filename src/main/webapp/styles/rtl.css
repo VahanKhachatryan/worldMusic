@@ -1,0 +1,81 @@
+.body { direction: rtl; overflow-x: hidden !important }
+.logo, .meta { float: right }
+.sf-menu { float: left; margin: 20px 0 0 0 }
+.sf-menu li { float: right;text-align: right }
+.sf-menu a { padding: 0 0 30px 40px }
+.little-head { float: left }
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {right: 0px;left: auto}
+ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul, .sf-menu li:hover ul li ul, .sf-menu li.sfHover ul li ul, .sf-menu li:hover ul li ul li ul, .sf-menu li.sfHover ul li ul li ul {right: 172px;left: auto;}
+.little-head .search button, .widget #searchwidget button, #newsletters button {left: 12px;right: auto}
+.sf-menu i, .post .post-title i, .mi {margin-left: 8px;margin-right: 0}
+.sf-sub-indicator i {margin-left: 0;margin-right: 8px}
+.breadcrumbIn li:before {content: "\f104";right: -4px;left: auto;}
+.post .Rmore, .like-post {float: left;}
+.post .meta span, .news-meta .meta span {margin-right: 0;margin-left: 20px;}
+#popupLoginClose {left: 33px;right: auto;}
+.tags i { margin-left: 4px; margin-right: 0 }
+.tab-content-items .m-thumbnail {float: right;margin: 0 0 0 10px;}
+.mtracks > .pane {left: 0;right: auto;}
+.videos .flex-direction-nav .flex-prev {left: 0;right: auto;}
+.videos .flex-direction-nav .flex-next {left: 18px;right: auto;}
+.copyright {float: right;}
+.foot-menu, .buy-ticket, .news .tbutton {float: left}
+#toTop, .pagination-tt .pages {float: left;}
+#toTop i {padding: 3px 5px 0 0;}
+.tab-content-items li:hover .m-thumbnail {padding: 0 10px 0 0;}
+.ttw-music-player {direction: ltr;}
+.mitem h3 {left: auto;right: 28px;}
+.mitem .cat {right: auto;left: 10px;}
+.pagination-tt ul {float: right;}
+#mobilepro, .sign-btn {float: left}
+.sf-menu li li a {padding: 8px 20px}
+.foot-menu li {float: right;}
+.foot-menu li:after {content: '/';color: #696969;font-size: 8px;position: absolute;right: -1px;top: 2px}
+.foot-menu li:before, .foot-menu li:first-child:after {content: ''}
+ul.showcomments .thumb {float: right;margin: 0 0 0 30px}
+ul.showcomments span.date {float: left}
+ul.showcomments li.child {margin: 0 112px 32px 0}
+#commentform .alpha {margin-left: 1%}
+.eventon_events_list .eventon_list_event .evcal_desc {margin-right: 5px;padding: 3px 80px 0 15px}
+.eventon_events_list .eventon_list_event a.evcal_list_a {border-right-width: 3px;border-right-style: solid}
+.eventon_events_list .eventon_list_event a.desc_trig:hover {border-right-width: 7px}
+.eventon_fullcal .evo_fc_day {float: right}
+.tback {left: 0;right: auto}
+.tp-title {padding: 10px 20px 10px 35px;right: 0px;left: auto}
+.tp-title span:nth-child(2) {left: 0px;right: auto}
+div.pp_pic_holder {direction: ltr; overflow-x: hidden}
+.little-head .search {float: right;margin: 0 0 0 20px}
+.social-head {float: left;margin: 0 0 0 20px}
+.ttw-music-player .player, .ttw-music-player .rating, .ttw-music-player .album-cover {float: right}
+.ttw-music-player .tracklist, .accordion-head-sign, .toggle-head-sign {float: left}
+.ttw-music-player .track-info {width: 270px;margin: 8px 30px 0 0;float: right;text-align: right}
+.ttw-music-player .tracklist ol {direction: rtl}
+.ttw-music-player .buy {left: 0;right: auto;margin: 0 10px 0 0}
+.ttw-music-player .tracklist .title {padding: 0 14px 0 0}
+.ttw-music-player .tracklist .rating {left: 60px;right: auto}
+.ttw-music-player .player-controls {float: right; margin: 12px 30px 0 0}
+.anyClass, #map {direction: ltr}
+.nexte {left: 17px;right: auto}
+.preve {right: auto;left: 0}
+.anyClass li {text-align: right}
+.tabs li {float: right;margin: 0 0 0 3px}
+.tabs li a {margin: 0 0 -1px 30px}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {float: right}
+.accordion-head i, .toggle-head i {padding-right: 0;padding-left: 8px}
+.dropcap, .dropcap-border {margin: 0px 0 8px 16px;float: right}
+.tbutton.small span {padding: 0 14px 6px;line-height: 1.6em}
+.mid, .mr {margin-left: 8px;margin-right: 0}
+a.notification-close {left: 20px;right: auto}
+.notification-box p i {padding-right: 0;border-right: 0;margin-right: 0;padding-left: 10px;border-left: 1px solid;margin-left: 10px}
+.blockquote {border-right: 5px solid #272727;border-left: 0}
+.social a, .login-links {float: right}
+.table tfoot td {text-align: right}
+.forum-items a {margin: 0 10px 6px 0}
+.forum .table th, .forum .table td {text-align: right;padding: 16px 20px 16px 10px}
+#loginform #login-button {float: left}
+.forum #search-forum button {left: 12px;right: auto}
+.forum #search-forum input {padding: 14px 10px 14px 30px}
+.ie7 .breadcrumbIn, .ie7 .breadcrumbIn li {float: right}
+.ie7 .def-block h4 {float:right;text-align: right;}
+.ie7 .pagination-tt li {margin: 0 2px;float: right}
+.ie7 nav li {float: left;}
